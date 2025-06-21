@@ -73,5 +73,3 @@ st.plotly_chart(fig, use_container_width=True)
 st.markdown("---")
 st.markdown("🔄 This chart updates live from the google sheet. Just update the **Timeline** or **Specific Dates** sheets.")
 # -
-
-pip install streamlit
