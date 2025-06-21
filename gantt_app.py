@@ -71,4 +71,7 @@ for _, row in markers.iterrows():
 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
-st.markdown("🔄 This chart updates live from [this Google Sheet](https://docs.google.com/spreadsheets/d/1lH4Q3z_rBq66_KrzwXOgcekn38o1QIFMvh0c9o7r0aA). Just update the **Timeline** or **Specific Dates** sheets.")
+st.markdown("🔄 This chart updates live from the google sheet. Just update the **Timeline** or **Specific Dates** sheets.")
+# -
+
+pip install streamlit
